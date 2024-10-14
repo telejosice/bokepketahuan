@@ -17,9 +17,9 @@ export default async function Home({
     const query = (searchParams.q && (searchParams.q as string)) || undefined;
 
     return (
-        <div className="md:my-2">
+        <div className="md:my-2"><h1>{SITENAME}</h1><h2>Video Bokep Indo Jepang Jav Barat Simontok Viral Terbaru</h2>
             {query ? (
-                <SearchCardList query={query} banner /><h1>{SITENAME}</h1><h2>Video Bokep Indo Jepang Jav Barat Simontok Viral Terbaru</h2>
+                <SearchCardList query={query} banner />
             ) : (
                 <CardList page={page} per_page={per_page} fld_id={fld_id} />
             )}
